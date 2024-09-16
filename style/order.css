@@ -1,0 +1,83 @@
+
+
+/* 头部样式 */
+header {
+    background-color: #010b01; 
+    color: white;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 12px 0; 
+}
+nav {
+    background-color: #f8f8f8; 
+}
+nav ul li {
+    display: inline; 
+    padding: 12px 16px; 
+}
+nav ul li a {
+    text-decoration: none; 
+    color: #333;
+}
+nav ul li:hover {
+    background-color: #c3cfca; 
+}
+
+/* 使当前页面的导航项突出显示 */
+form {
+    margin-bottom: 20px;
+    display: flex; /* 30. Create a flexible layout for the form */
+    flex-direction: column; /* 31. Stack elements vertically */
+    gap: 16px; /* 32. Add gap between elements */
+}
+
+/* 33. New selector for div with the "size-select" class */
+.size-select {
+    display: flex; /* 34. Flexible layout for horizontal alignment */
+}
+
+/* 35. New selector for all label elements */
+label {
+    display: block; /* 36. Ensure each label is on its own line */
+}
+
+/* 37. Target text input and select elements */
+input[type="text"], select {
+    width: 200px; /* 38. Set width */
+    padding: 5px; /* 39. Add padding */
+    margin-bottom: 10px; /* 40. Add margin at the bottom */
+}
+
+/* 41. Target radio button elements */
+input[type="radio"] {
+    margin-left: 16px; /* 42. Add left margin for spacing */
+}
+
+/* 43. Target submit button elements */
+input[type="submit"] {
+    background-color: #080b09; /* 44. Set background color (example) */
+    color: #ffffff; /* Set text color (example) */
+    padding: 10px 20px; /* 45. Add padding */
+    border: none; /* 46. Remove border */
+    cursor: pointer; /* 47. Change cursor style */
+}
+
+/* 48. Ensure <a> elements are properly linked */
+a {
+    text-decoration: none; /* Optional: remove underline */
+}
+
+
+footer {
+    background-color: #0e0505; 
+    color: #f9f7f7; 
+    padding: 20px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+}

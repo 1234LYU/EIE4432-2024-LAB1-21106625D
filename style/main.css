@@ -1,0 +1,51 @@
+header {
+    background-color: #010b01; 
+    color: white;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 12px 0; 
+}
+nav {
+    background-color: #f8f8f8; 
+}
+nav ul li {
+    display: inline; 
+    padding: 12px 16px; 
+}
+nav ul li a {
+    text-decoration: none; 
+    color: #333;
+}
+nav ul li:hover {
+    background-color: #d1e7dd; 
+}
+.centered-title {
+    text-align: center; 
+}
+.featured-drinks {
+    display: flex; 
+    justify-content: center;
+    gap: 0 
+}
+.drink-container {
+    text-align: center; 
+ 
+}
+ img {
+    width: 200px; 
+    height: 200px; 
+ }
+
+ footer {
+    background-color: #0e0505; 
+    color: #f9f7f7; 
+    padding: 20px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+}
